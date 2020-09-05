@@ -2,7 +2,7 @@
 
 namespace Dialog;
 
-use Core\Box;
+use Dialog\Core\Box;
 
 class TextBox extends Box
 {

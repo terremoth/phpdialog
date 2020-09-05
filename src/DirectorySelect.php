@@ -2,9 +2,12 @@
 
 namespace Dialog;
 
-use Core\Box;
+use Dialog\Core\Box;
 
 class DirectorySelect extends Box
 {
-
+    public function __construct()
+    {
+        $this->signature = 'dselect';
+    }
 }

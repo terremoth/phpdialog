@@ -2,7 +2,7 @@
 
 namespace Dialog;
 
-use Core\Box;
+use Dialog\Dialog\core\Box;
 
 class BuildList extends Box
 {
