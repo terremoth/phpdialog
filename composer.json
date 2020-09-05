@@ -1,0 +1,17 @@
+{
+    "name": "lucas/phpdialog",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "terremoth",
+            "email": "dutr4@outlook.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Dialog\\": "src/"
+        }
+    }
+}
