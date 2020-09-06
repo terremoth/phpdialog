@@ -8,6 +8,7 @@ use Dialog\YesNo;
 
 $calendar = new Calendar;
 $calendar->title('My calendar')
+        ->clearAsShell()
          ->text('Hello darkness, my old Calendar');
 
 echo PHP_EOL.'Response is '.$calendar->show()->getAnswer().PHP_EOL;
